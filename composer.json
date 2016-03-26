@@ -1,0 +1,19 @@
+{
+    "name": "ayim/quickadmin",
+    "description": "Admin Solution for laravel 5.2.*, AdminLTE for a strat",
+    "require-dev": {
+        "php": "5.4.0",
+        "almasaeed2010/adminlte": "^2.3",
+        "components/font-awesome": "^4.5",
+        "twbs/bootstrap": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ayimdomnic",
+            "email": "domnic@ralphowino.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
