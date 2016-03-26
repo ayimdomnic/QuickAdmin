@@ -29,3 +29,7 @@ StyleCI
 Laravel Documentation 
 
 Google is still your friend
+
+#wiki
+
+click here for the [wiki](https://github.com/ayimdomnic/QuickAdmin/wiki)
