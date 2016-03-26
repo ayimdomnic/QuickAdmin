@@ -5,13 +5,11 @@ namespace Ayim\Quickadmin;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 trait QuickadminAuthTrait
-
 {
-	use AuthenticatesAndRegistersUsers;
+    use AuthenticatesAndRegistersUsers;
 
-	public function getLogin()
-	{
-		return view(quickadmin::auth.login);
-	}
-
+    public function getLogin()
+    {
+        return view(quickadmin::auth.login);
+    }
 }
