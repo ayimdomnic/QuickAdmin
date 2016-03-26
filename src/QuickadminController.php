@@ -12,7 +12,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Support\Collection;
 use Illuminate\View\View;
 
-abstract class AdminController extends BaseController
+abstract class QuickadminController extends BaseController
 {
 	use DispatchesJobs, ValidatesRequests;
 

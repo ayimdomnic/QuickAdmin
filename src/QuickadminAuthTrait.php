@@ -2,8 +2,10 @@
 
 namespace Ayim\Quickadmin;
 
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsersS;
-trait AdminAuthTrait
+use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+
+trait QuickadminAuthTrait
+
 {
 	use AuthenticatesAndRegistersUsers;
 
@@ -11,5 +13,5 @@ trait AdminAuthTrait
 	{
 		return view(quickadmin::auth.login);
 	}
-	
+
 }
