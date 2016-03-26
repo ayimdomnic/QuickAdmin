@@ -4,5 +4,5 @@ namespace Ayim\Quickadmin;
 
 interface QuickadminFormatter
 {
-	public function format($value);
+    public function format($value);
 }

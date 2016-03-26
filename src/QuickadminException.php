@@ -2,7 +2,6 @@
 
 namespace Ayim\Quickadmin;
 
-class QuickadminExcepton extends RuntimeException
+class QuickadminException extends RuntimeException
 {
-	
 }
