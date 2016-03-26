@@ -44,5 +44,14 @@ class QuickadminServiceProvider extends ServiceProvider {
 			__DIR__.'/../config/quickadmin.php'=> config_path('quickadmin.php');
 			], 'config');
 		$this->loadViesFrom(__DIR__.'/../resources/views', 'quickadmin');
+		/**
+		 *Fetching the services provided by the provider (I suck at commenting code)
+		 *
+		 *@return array
+		 */
+		public function provides()
+		{
+			return [];
+		}
 	}
 }
